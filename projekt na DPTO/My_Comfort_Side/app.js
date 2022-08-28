@@ -1,0 +1,48 @@
+var episodes = [
+    'S1 E09 LEGO Monkie Kid',
+    'S2 E07 LEGO Monkie Kid',
+    'S3 E05 LEGO Monkie Kid',
+    'S3 E13 LEGO Monkie Kid',
+    'S3 E15 LEGO Monkie Kid',
+    'S1 E10 Bungou Stray Dogs',
+    'S1 E21 Bungou Stray Dogs',
+    'S2 E01 Bungou Stray Dogs',
+    'S2 E02 Bungou Stray Dogs',
+    'S2 E03 Bungou Stray Dogs',
+    'S2 E01 Helluva Boss',
+    'S1 E01 Owl House',
+    'S1 E05 Owl House',
+    'S1 E16 Owl House',
+    'S2 E06 Owl House',
+    'S2 E07 Owl House',
+    'S2 E09 Owl House',
+    'S2 E13 Owl House',
+    'S2 E15 Owl House',
+    'S2 E21 Owl House',
+    'S2 E19 Owl House',
+    'S2 E20 Owl House',
+    'S1 E19 Gravity Falls',
+    'S2 E04 Gravity Falls',
+    'S2 E15 Gravity Falls',
+    'S2 E18 Gravity Falls',
+    'S2 E19 Gravity Falls',
+    'S2 E20 Gravity Falls',
+    'S1 E12 Camp Camp',
+    'S2 E01 Camp Camp',
+    'S2 E12 Camp Camp',
+    'S1 E11 Danny Phantom',
+    'S1 E18 Danny Phantom',
+    'S2 E05 Danny Phantom',
+    'S2 E07 Danny Phantom',
+    'S2 E08 Danny Phantom',
+    'S2 E09 Danny Phantom',
+    'S2 E10 Danny Phantom',
+    'S2 E15 Danny Phantom',
+    'S2 E17 Danny Phantom',
+    'S3 E11 Danny Phantom'
+]
+
+function getEpisode() {
+    var randomnumber = Math.floor(Math.random() * episodes.length);
+    document.getElementById("newEpisodeSection").innerHTML = episodes[randomnumber];
+}

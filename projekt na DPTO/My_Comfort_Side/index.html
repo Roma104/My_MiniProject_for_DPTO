@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>Comfort Side</title>
+        <link rel="stylesheet" href="npm i bootstrap@5.2.0">
+        <link rel="stylesheet" href="style.css">
+                
+</head>
+<body>
+        
+        <h1>Comfort Side</h1>
+        <div style="background-color:rgb(6, 8, 147);color:rgb(153, 204, 249);padding:20x;">
+
+                <h2> Goal </h2>
+
+                <p  style="text-align:center;">This side will be my "comfort space" and I hope it will help me calm down if needed, 
+                or remind me to do something with the time. </p>
+
+                <p  style="text-align:center;">It's hard for me to focus sometimes, work on something right away, or do things systematically. So I thought it would be
+                good to do for my project something I will most likely use. So below will be a lot of things I'm interested in or find difficult
+                to do without some kind of reminder.</p>
+
+                <p  style="text-align:center;">So let's start with something I'm crazy about, starting with good things just seems right to me.
+                Writting! I'm totally obsesd with writing, telling stories, creating different characters and realities. I litteraly can't stop
+                think about plot ideas or new characters,with is sometimes kind of distracting in wors situations, but well, at least it's somehow
+                usefull.
+                </p>
+        </div>
+        <p  style="text-align:center;">
+		<img src="wtt.png" alt="wtt" width='300' height='300'>
+                <img src="FH.jpg" alt="FH" width='300' height='300'>
+        </p>
+        <p style="text-align:center;">Wattpad is my little, cosy toll, that helped me improved a lot! I publish there my works,
+         chapter after chapter, and with time I can see how much my style changed and how my writing got better. It has a lot of great 
+         features to make tekst more intresting looking and "sounding". Also it's easy to get feedback there whith is really great! It's
+         what I think helped me improved the most and at hte same times keept me really motivated!
+        </p>
+
+        <p>As for other apps I use during writing, that I would like not to forget about:</p>
+
+        <table text-align="center" style="width:30%">
+                <tr>
+                        <th>Name</th>
+                        <th>What I use it for</th>
+                </tr>
+                <tr>
+                        <td>Character Planner</td>
+                        <td>Creating characters</td>
+                </tr>
+                <tr>
+                        <td>Okładki Książek</td>
+                        <td>Book covers</td>
+                </tr>
+                <tr>
+                        <td>Synonimy</td>
+                        <td>Well synonims</td>
+                </tr>
+                <tr>
+                        <td>Licznik Tekstu</td>
+                        <td>Word cound</td>
+                </tr>
+                <tr>
+                        <td>SoundCloud</td>
+                        <td>Music in background</td>
+                </tr>
+                <tr>
+                        <td>Pinterest</td>
+                        <td>Inspirations,story themes</td>
+                </tr>
+                <tr>
+                        <td>Notatnik</td>
+                        <td>Brain storming, little ideas</td>
+                </tr>
+        </table>
+        <p>Right now I am writing 3 stories; fanficions to be more exact. It's a form of "sharpening my pen" befor starting my own-own stories.
+                And here they are, with links to the 1st chapters for easy acces:
+        </p>
+        <p style="text-align:center;">
+                
+                <img  src="Trust.png" alt="Trust" width='450' height='400'><br>
+                <a href="https://www.wattpad.com/1009945450-trust-soukoku-dauble-black" style="color:#1A237E">"Trust"</a><br><br><br>
+                
+                <img  src="Wine&Whiskey.png" alt="Wine&Whiskey" width='450' height='400'><br>
+                <a href="https://www.wattpad.com/1028394087-wine-whiskey-odebrałeś" style="color:#1A237E">"Wine & Whiskey"</a><br><br><br>
+
+                <img  src="BloodPact.png" alt="BloodPact" width='450' height='400'><br>
+                <a href="https://www.wattpad.com/543020790-blood-pact-billdip-kłamstwo-pierwsze" style="color:#1A237E">"Blood Pact"</a>
+
+        
+        </p>
+        <h2>Number of the day!</h2>
+
+        <p>So like I'm low key obsesed with numbers and counting anything to keep my mind occupated. So I thought of this little number generator 
+                to give me a number that I should look for in that day. 
+        </p>
+
+        <p style="text-align:center" id="one"></p>
+                <button style="text-align:center" onclick="random()">Get a number!</button>
+
+                <script>
+                function random(){
+
+                document.getElementById("one").innerHTML = Math.floor(Math.random() * 10)+1;
+                }
+                </script>
+        
+        <br>
+        <br>
+
+        <p style="text-align:center;">So next one is a random-comort-episode generator! It conteins some of my most favourite episodes and with one click generates 
+                what I shall watch since I'm not good at picking anything! And I can always add more episodes to the list later ^^ (but that in "app.js" not here)
+        </p>
+
+        <div class="containter_two">
+                <div class="row flex-top justyfy-content-center"></div>
+                <header class="border shadow">
+                        <h2>Episode of the day!</h2>
+                </header>
+
+                <div class="row flex-top justyfy-content-center">
+                        <button id="button" class="btn-large new-episode-button" onclick="getEpisode()">New Episode!</button>
+                </div>
+
+                <div class="row flex-top justyfy-content-center">
+                        <main class="card">
+                                <p class="episode card-body center" id="newEpisodeSection">...</p>
+                        </main>
+                </div>
+        </div>
+
+        <script src="app.js"></script>
+
+        
+
+        <br>
+
+        <h2>Everyday things!</h2>
+        <p style="text-align:center;">I tend to forget most basic things so here comes some checkboxes since they're relly motivating somehow!</p>
+
+                <form style="text-align:center" >
+                        <input type="checkbox" id="vehicle1" name="vehicle1">
+                        <label for="vehicle1"> Drink water!</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2">
+                        <label for="vehicle2"> Eat!</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3">
+                        <label for="vehicle3"> Write!</label><br>
+                        <input type="checkbox" id="vehicle4" name="vehicle4">
+                        <label for="vehicle3"> Do hommework!</label><br>
+                        <input type="checkbox" id="vehicle5" name="vehicle5">
+                        <label for="vehicle3"> Stretch!</label><br>
+                        <input type="checkbox" id="vehicle6" name="vehicle6">
+                        <label for="vehicle3"> Go for a walk!</label><br>
+                        <input type="checkbox" id="vehicle7" name="vehicle7">
+                        <label for="vehicle3"> Smile!</label><br>
+                        <input type="checkbox" id="vehicle8" name="vehicle8">
+                        <label for="vehicle3"> Check on your friends!</label><br>
+                </form>
+
+
+        <br>
+        
+        <h2>Internet</h2>
+                <p style="text-align:center;">I just added a search engine that conects to Bing, so I have another way out of here. Also few links to where I am most likely
+                        to go anyway so it's like One click away.
+                </p>
+                <p>
+                        <form action="https://www.bing.com/?FORM=Z9FD1" style="text-align:center;">
+                                <label for="fname">Your Journaly Starst Here!</label><br>
+                                <input type="text" id="q" name="q" value=""><br>
+                                <input type="submit" value="Let's GOOOO!">
+                        </form>
+                </p>     
+                <p>
+                        <li style="text-align:center;"><a href="https://www.wattpad.com/home" style="color:#1A237E">Wattpad</a></li>
+                        <li style="text-align:center;"><a href="https://pl.pinterest.com" style="color:#1A237E">Pinterest</a></li>
+                        <li style="text-align:center;"><a href="https://www.ortograf.pl" style="color:#1A237E">Ortograf</a></li>
+                        <li style="text-align:center;"><a href="https://imissmycafe.com" style="color:#1A237E">I Miss My Caffe</a></li>
+                        <li style="text-align:center;"><a href="https://translate.google.pl/?hl=pl&tab=TT" style="color:#1A237E">Tłumacz</a></li>
+                        <li style="text-align:center;"><a href="https://archiveofourown.org" style="color:#1A237E">AO3</a></li>
+                        
+                </p>
+
+</body>
+
+</html>

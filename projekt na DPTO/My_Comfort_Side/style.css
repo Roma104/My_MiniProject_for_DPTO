@@ -1,0 +1,126 @@
+
+*{
+    font-family: montserrat;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    }
+header{
+    padding: 2em;
+    background-color: #1A237E;
+    margin-top: 2em;
+    text-align: center;
+    color: aliceblue;
+}
+.episode{
+    font-size: 2em;
+}
+.btn-large{
+    margin: 0.5 em;
+}
+.card{
+    border-color: #1A237E;
+    text-align: center;
+    width: 45em;
+}
+.new-episode-button{
+    background-color: #92d5f6;
+    border-color: #1A237E;
+}
+#button:hover{
+    background-color: aquamarine;
+}
+body {
+    font-family: 'montserrat';
+    padding: 100PX;
+    background-color:#66CCFF;
+    align-items: center;
+}
+th, td {
+    border: 1.5px solid rgb(114, 113, 113);
+    text-align: center;
+}
+tr, th {
+    background-color: #80a8cf;
+    text-align: center; 
+}
+p {
+    font-size: 26px;
+}
+h1{
+    font-size: 70px;
+    text-align:center;
+}
+h2{
+    font-size: 40px;
+    text-align:center;    
+}
+a{
+    font-size: 40px;
+    text-align: center;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    
+    font-size: 40px;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+    color: paleturquoise;
+    margin: 4px 2px;
+    cursor:pointer;
+    background-color: #1A237E;
+}
+.container{
+    width: 550px;
+    height: 450px;
+    align-items: center;
+}
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main-content{
+    text-align: center;
+    width: 100;
+    height: 200px;
+    padding: 50px 40px;
+    background-color: #1A237E;
+    border-radius: 15px;
+    box-shadow: 0 25px 31px rgba(0,0,0,0.5);
+}
+.text-area{
+    text-align: center;
+    font-size: 30px;
+    color:aliceblue;
+    line-height: 1.5;
+}
+.main-content .series{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.main-content .button-area{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.button-area .btn button{
+    background-color:rgb(153, 204, 249); 
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+}
+.button-area .btn button:active{
+    background-color: #4fe5a9;
+}
